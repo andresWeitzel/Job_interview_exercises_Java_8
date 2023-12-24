@@ -11,9 +11,8 @@ Job interview exercises with java 8 applying Api Stream, Java Collection Framewo
  <summary> See </summary>
  <br>
   
-### String Methods
-* [Using the isBlank method.](#make-a-simple-request-to-a-host-with-http-)
-* [Create a server with http](#create-a-server-with-http-)
+### Java Collection Framework
+* [Using ArrayList Method.](#using-arraylist-method-)
    
 <br>
 
@@ -43,59 +42,35 @@ Job interview exercises with java 8 applying Api Stream, Java Collection Framewo
 
 ## String Methods 
 
-### Using the isBlank method [🔝](#index-)
+### UUsing ArrayList Method [🔝](#index-)
 
 <br>
 
-#### Check if a string has empty spaces
+#### Write a Java program to create a list of arrays, add some values (of type strings) and print the collection.
 <details>
   <summary>See solution</summary>
  <br>
+ 
+* [ArrayList Exercises](https://www.w3resource.com/java-exercises/collection/index.php)
 
-
-* [isBlank method](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#isBlank())
 
 #### Code
  ```java
-public class TestClass {
-    public static void main(String args[]) {
-        
-        /**
-         * public boolean isBlank()
-
-Returns true if the string is empty or contains only white space codepoints, otherwise false.
-
-Returns:
-    true if the string is empty or contains only white space codepoints, otherwise false
-Since:
-    11
-See Also:
-    Character.isWhitespace(int) 
-         * 
-         */
-        
-        
-     String firstString = "First String to test";
-
-      System.out.println("First String : "+firstString.isBlank());
-      
-           String secondString = " ";
-
-      System.out.println("Second String : "+secondString.isBlank());
-      
-                String thirdString = "";
-
-      System.out.println("Third String : "+thirdString.isBlank());
-
-    }
+import java.util.*;
+public class Random {
+  public static void main(String[] args) {
+  List<String> list = new ArrayList<String>();
+  list.add("First string");
+  list.add("Second string");
+  list.add("Third string");
+  System.out.println(list);
+ }
 }
  ```
 
 #### Console
  ```java
-First String : false
-Second String : true
-Third String : true
+[First string, Second string, Third string]
 
  ```
 
