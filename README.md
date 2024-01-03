@@ -42,7 +42,7 @@ Job interview exercises with java 8 applying Api Stream, Java Collection Framewo
 
 ## String Methods 
 
-### UUsing ArrayList Method [🔝](#index-)
+### Using ArrayList Method [🔝](#index-)
 
 <br>
 
